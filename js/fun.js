@@ -1,3 +1,20 @@
+//Side-ar
+let itemLinkButtons = document.querySelectorAll("main.main>.sidebar>.menu>ul.menu-items>.item>a.item-link>span.icli")
+if (itemLinkButtons != null) {
+    itemLinkButtons.forEach(element => {
+        let parentEl = element.parentElement;
+        let toolTip = parentEl.querySelector(".link-text");
+        element.addEventListener("mouseenter", (e) => {
+            toolTip.style.display = "inline-block"
+        })
+        element.addEventListener("mouseleave", (e) => {
+            toolTip.style.display = "none"
+        })
+    });
+}
+
+
+
 //Issues
 let issuesLink = document.querySelector("main.main>.content>.content-container>.main-section>.featured-comic>.featured>ul.header>li.item>a#issues-item-link")
 let preLink = document.querySelector("main.main>.content>.content-container>.main-section>.featured-comic>.featured>ul.header>li.item>a#pre-item-link")
