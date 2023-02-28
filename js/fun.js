@@ -25,10 +25,15 @@ if (hamiScrollButtons != null) {
         element.addEventListener("mouseenter", (e) => {
             e.stopPropagation()
             scrollContainerRight.style.display = "flex"
+            console.log(element.scrollLeft)
+            if (element.scrollX > 200) {
+                scrollContainerLeft.style.display = "flex"
+            }
         })
         element.addEventListener("mouseleave", (e) => {
             e.stopPropagation()
             scrollContainerRight.style.display = "none"
+            scrollContainerLeft.style.display = "none"
         })
     });
 }

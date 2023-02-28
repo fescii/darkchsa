@@ -590,7 +590,7 @@ main.main>.content>.header>.rel-items>li.scroll {
     padding-left: 10px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -1894,7 +1894,7 @@ main.main>.content>.content-container>.main-section>.top-erukis>.left {
     top: 30px;
     bottom: 10px;
     z-index: 3;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
