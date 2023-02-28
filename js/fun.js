@@ -14,6 +14,26 @@ if (itemLinkButtons != null) {
 }
 
 
+//Hami-scroll
+let hamiScrollButtons = document.querySelectorAll("main.main>.content>.content-container>.main-section>.top-erukis")
+if (hamiScrollButtons != null) {
+    hamiScrollButtons.forEach(element => {
+        let scrollContainerRight = element.querySelector(".right");
+        let scrollBtnRight = scrollContainerRight.querySelector("span");
+        let scrollContainerLeft = element.querySelector(".right");
+        let scrollBtnLeft = scrollContainerLeft.querySelector("span");
+        element.addEventListener("mouseenter", (e) => {
+            e.stopPropagation()
+            scrollContainerRight.style.display = "flex"
+        })
+        element.addEventListener("mouseleave", (e) => {
+            e.stopPropagation()
+            scrollContainerRight.style.display = "none"
+        })
+    });
+}
+
+
 
 //Issues
 let issuesLink = document.querySelector("main.main>.content>.content-container>.main-section>.featured-comic>.featured>ul.header>li.item>a#issues-item-link")
