@@ -588,9 +588,9 @@ main.main>.content>.header>.rel-items>li.scroll {
     top: 0px;
     padding-top: 5px;
     padding-left: 10px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    /* background-color: #ffffff; */
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+    background-color: #ffffff;
     height: 100%;
     display: flex;
     align-items: center;
@@ -1345,10 +1345,10 @@ main.main>.content>.content-container>.top-comics {
     justify-content: space-between;
     gap: 10px;
     position: sticky;
-    top: 85px;
-    height: 90vh;
+    top: 90px;
+    height: 71vh;
     /* justify-self: end; */
-    padding-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 main.main>.content>.content-container>.top-comics>.title-section {
@@ -1867,7 +1867,7 @@ main.main>.content>.content-container>.main-section>.top-erukis>.erukis>.eruki>.
 main.main>.content>.content-container>.main-section>.top-erukis>.right {
     /* border: 1px solid #48ea03; */
     /* background-color: #ffffff; */
-    background-color: #fbfdff5d;
+    background-color: #fbfdff4b;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     text-decoration: none;
