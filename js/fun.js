@@ -174,7 +174,7 @@ if (headerScrollBtn != null) {
                 pointer = true
                 icon.classList.remove("iconly-Arrow-Right-Circle")
                 icon.classList.add("iconly-Arrow-Left-Circle")
-                width = 150
+                width = 150;
             }
         }
     })
