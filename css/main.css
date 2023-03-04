@@ -349,9 +349,11 @@ section.shorts>.shorts-items>a.short>.image {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -754,9 +756,11 @@ main.main>.content>.content-container>.main-section>.featured-comic>.featured {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -1360,7 +1364,7 @@ main.main>.content>.content-container>.top-comics>.stats {
     border-left: 1px solid #8080804f;
     padding-left: 30px;
     justify-self: flex-end;
-    display: none;
+    display: flex;
     flex-flow: column;
     gap: 25px;
     overflow-y: auto;
