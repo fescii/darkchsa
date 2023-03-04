@@ -1586,6 +1586,7 @@ main.main>.content>.content-container>.main-section>.latest-comics {
     gap: 10px;
     height: max-content;
     padding: 0px;
+    position: relative;
 }
 
 main.main>.content>.content-container>.main-section>.latest-comics>.comics {
@@ -1604,8 +1605,50 @@ main.main>.content>.content-container>.main-section>.latest-comics>.comics::-web
     visibility: hidden;
 }
 
+
+main.main>.content>.content-container>.main-section>.latest-comics>.right {
+    /* border: 1px solid #48ea03; */
+    /* background-color: #ffffff; */
+    background-color: #ffffffcc;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    right: -20px;
+    top: 0%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.main>.content>.content-container>.main-section>.latest-comics>.left {
+    /* border: 1px solid #48ea03; */
+    /* background-color: #ffffff; */
+    background-color: #ffffffcc;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    left: -10px;
+    top: 30px;
+    bottom: 10px;
+    z-index: 3;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+main.main>.content>.content-container>.main-section>.latest-comics>.scroll>span {
+    font-size: 2rem;
+    color: #08b86f;
+    cursor: pointer;
+}
+
 main.main>.content>.content-container>.main-section>.latest-comics>.comics>.issue {
-    border: 1px solid #c3c3c39b;
+    /* border: 1px solid #c3c3c39b; */
     text-decoration: none;
     width: 150px;
     height: auto;
@@ -1613,7 +1656,7 @@ main.main>.content>.content-container>.main-section>.latest-comics>.comics>.issu
     display: flex;
     flex-flow: column;
     align-items:center;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 15px;
 }
 
