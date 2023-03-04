@@ -1931,7 +1931,7 @@ main.main>.content>.content-container>.main-section>.top-erukis>.scroll>span {
 
 /*Stories-section*/
 main.main>.content>.content-container>.main-section>.stories{
-    border: 1px solid #0693e3;
+    /* border: 1px solid #0693e3; */
     display: flex;
     flex-flow: column;
     gap: 10px;
@@ -1939,7 +1939,7 @@ main.main>.content>.content-container>.main-section>.stories{
     padding: 0;
 }
 main.main>.content>.content-container>.main-section>.stories>.stories-wrapper{
-    border: 1px solid #0693e3;
+    /* border: 1px solid #0693e3; */
     display: flex;
     flex-flow: row;
     gap: 30px;
@@ -1953,19 +1953,43 @@ main.main>.content>.content-container>.main-section>.stories>.stories-wrapper::-
     visibility: hidden;
 }
 main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story{
-    border: 2px solid #e306af;
+    /*border: 1px solid #e306af;
+    */border: 1px solid #c3c3c39b;
     min-width: 300px;
     display: flex;
     flex-flow: column;
-    gap: 5px;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.header{
-    border: 1px solid #e39606;
+    /* border: 1px solid #e39606; */
     display: flex;
     flex-flow: column;
-    gap: 5px;
+    gap: 0px;
 }
 main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.header>h4.title{
-    border: 1px solid #0693e3;
+    /* border: 1px solid #0693e3; */
     margin: 0;
+    font-weight: 500;
+    color: #404040;
+    font-size: 1.4rem;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.header>a.by{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #808080;
+    padding-left: 5px;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.header>a.by>.name{
+    color: #08b86f;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.description{
+    /* border: 1px solid #0693e3;  */
+    margin: 0%;
+    color: #404040;
 }
