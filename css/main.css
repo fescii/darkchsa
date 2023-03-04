@@ -699,6 +699,9 @@ main.main>.content>.content-container {
     grid-template-columns: 75% 21%;
     column-gap: 4%;
 }
+main.main>.content>.main{
+    grid-template-columns: 66% 30%;
+}
 
 main.main>.content>.content-container>.main-section {
     /* border: 1px solid #808080; */
