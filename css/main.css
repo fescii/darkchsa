@@ -1959,7 +1959,7 @@ main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.s
     display: flex;
     flex-flow: column;
     gap: 10px;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
