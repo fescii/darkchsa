@@ -772,7 +772,7 @@ main.main>.content>.content-container>.main-section>.featured-comic>.featured {
 main.main>.content>.content-container>.main-section>.featured-comic>.featured>ul.header {
     display: flex;
     margin: 0%;
-    padding: 20px 30px 10px 30px;
+    padding: 15px 30px 0px 30px;
     list-style-type: none;
     align-items: center;
     justify-content: center;
@@ -799,7 +799,7 @@ main.main>.content>.content-container>.main-section>.featured-comic>.featured>ul
 
 main.main>.content>.content-container>.main-section>.featured-comic>.featured>ul.header>li.item>a.selected {
     background-color: rgba(224, 219, 219, 0.316);
-    border-top: 2px solid #a7e4cb;
+    border-top: 1px solid #a7e4cb;
     color: #ffffff;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -813,7 +813,7 @@ main.main>.content>.content-container>.main-section>.featured-comic>.featured>.f
     display: flex;
     flex-flow: column;
     gap: 5px;
-    padding: 20px 20px 20px 20px;
+    padding: 0px 20px 15px 20px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -856,7 +856,7 @@ main.main>.content>.content-container>.main-section>.featured-comic>.featured>.f
 
 main.main>.content>.content-container>.main-section>.featured-comic>.featured>.featured-content>.description {
     color: #e7e4e4;
-    width: 70%;
+    /* width: 70%; */
     margin: 0%;
     line-height: 1.4;
     margin-top: 10px;
@@ -929,40 +929,6 @@ main.main>.content>.content-container>.main-section>.featured-comic>.featured>.f
     rotate: 90deg;
 }
 
-main.main>.content>.content-container>.main-section>.featured-comic>.featured>.featured-content>.footer>.right-items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main.main>.content>.content-container>.main-section>.featured-comic>.featured>.featured-content>.footer>.right-items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main.main>.content>.content-container>.main-section>.featured-comic>.featured>.featured-content>.footer>.right-items>a.rating {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    color: rgb(255, 136, 0);
-    padding: 4px 17px 4px 15px;
-    background-color: #ffffff;
-    font-size: 1.09rem;
-    text-decoration: none;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-}
-
-main.main>.content>.content-container>.main-section>.featured-comic>.featured>.featured-content>.footer>.right-items>a.rating>span.icli {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: rgb(255, 136, 0);
-}
 
 main.main>.content>.content-container>.main-section>.featured-comic>.featured>.issues {
     position: absolute;
