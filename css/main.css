@@ -1887,11 +1887,11 @@ main.main>.content>.content-container>.main-section>.top-erukis>.erukis>.eruki>.
     -o-border-radius: 5px;
 }
 
-main.main>.content>.content-container>.main-section>.stories>.right,
+main.main>.content>.content-container>.main-section>.stories>.rightie,
 main.main>.content>.content-container>.main-section>.top-erukis>.right {
     /* border: 1px solid #48ea03; */
     /* background-color: #ffffff; */
-    background-color: #fbfdff4b;
+    background-color: #e2f0ff4b;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     text-decoration: none;
@@ -1905,11 +1905,11 @@ main.main>.content>.content-container>.main-section>.top-erukis>.right {
     justify-content: center;
 }
 
-main.main>.content>.content-container>.main-section>.stories>.left,
+main.main>.content>.content-container>.main-section>.stories>.leftie,
 main.main>.content>.content-container>.main-section>.top-erukis>.left {
     /* border: 1px solid #48ea03; */
     /* background-color: #ffffff; */
-    background-color: #fbfdff5d;
+    background-color: #e2f0ff4b;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     text-decoration: none;

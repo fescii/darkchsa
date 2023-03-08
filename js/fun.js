@@ -42,9 +42,9 @@ if (hamiScrollButtons != null) {
 let storyScrollButtons = document.querySelectorAll("main.main>.content>.content-container>.main-section>.stories")
 if (storyScrollButtons != null) {
     storyScrollButtons.forEach(element => {
-        let scrollContainerRight = element.querySelector(".right");
+        let scrollContainerRight = element.querySelector(".rightie");
         let scrollBtnRight = scrollContainerRight.querySelector("span");
-        let scrollContainerLeft = element.querySelector(".right");
+        let scrollContainerLeft = element.querySelector(".leftie");
         let scrollBtnLeft = scrollContainerLeft.querySelector("span");
         element.addEventListener("mouseenter", (e) => {
             e.stopPropagation()
