@@ -1887,6 +1887,7 @@ main.main>.content>.content-container>.main-section>.top-erukis>.erukis>.eruki>.
     -o-border-radius: 5px;
 }
 
+main.main>.content>.content-container>.main-section>.stories>.right,
 main.main>.content>.content-container>.main-section>.top-erukis>.right {
     /* border: 1px solid #48ea03; */
     /* background-color: #ffffff; */
@@ -1904,6 +1905,7 @@ main.main>.content>.content-container>.main-section>.top-erukis>.right {
     justify-content: center;
 }
 
+main.main>.content>.content-container>.main-section>.stories>.left,
 main.main>.content>.content-container>.main-section>.top-erukis>.left {
     /* border: 1px solid #48ea03; */
     /* background-color: #ffffff; */
@@ -1922,6 +1924,7 @@ main.main>.content>.content-container>.main-section>.top-erukis>.left {
     justify-content: center;
 }
 
+main.main>.content>.content-container>.main-section>.stories>.scroll>span,
 main.main>.content>.content-container>.main-section>.top-erukis>.scroll>span {
     font-size: 2rem;
     color: #08b86f;
@@ -1937,6 +1940,7 @@ main.main>.content>.content-container>.main-section>.stories{
     gap: 12px;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 main.main>.content>.content-container>.main-section>.stories>.stories-wrapper{
     /* border: 1px solid #0693e3; */
