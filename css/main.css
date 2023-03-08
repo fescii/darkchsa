@@ -1994,3 +1994,71 @@ main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.s
     color: #404040;
     line-height: 1.5;
 }
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer{
+    /* border: 1px solid #0693e3; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.right{
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 4px 15px;
+    background-color: #0693e3;
+    color: #ffffff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left{
+    /* border: 1px solid #0693e3; */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    color: #808080;
+    font-size: 0.95rem;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left:hover{
+    color: #08b86f;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left>.profiles{
+    /* border: 1px solid #0000fe; */
+    width: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left>.profiles>.image{
+    /* border: 1px solid #fe0000; */
+    display: flex;
+    width: 23px;
+    height: 23px;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left>.profiles>.image:nth-of-type(2){
+    /* border: 1px solid #fe0000; */
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left>.profiles>.image:nth-of-type(3){
+    /* border: 1px solid #fe0000; */
+    position: absolute;
+    left: 28px;
+    bottom: 0px;
+}
+main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left>.profiles>.image>img{
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
