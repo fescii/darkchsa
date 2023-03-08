@@ -2021,14 +2021,14 @@ main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.s
     align-items: center;
     gap: 0px;
     color: #808080;
-    font-size: 0.95rem;
+    font-size: 0.93rem;
 }
 main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left:hover{
     color: #08b86f;
 }
 main.main>.content>.content-container>.main-section>.stories>.stories-wrapper>.story>.footer>a.left>.profiles{
     /* border: 1px solid #0000fe; */
-    width: 60px;
+    width: 55px;
     display: flex;
     align-items: center;
     position: relative;
