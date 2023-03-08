@@ -38,6 +38,30 @@ if (hamiScrollButtons != null) {
     });
 }
 
+//Stories-scroll
+let storyScrollButtons = document.querySelectorAll("main.main>.content>.content-container>.main-section>.stories")
+if (storyScrollButtons != null) {
+    storyScrollButtons.forEach(element => {
+        let scrollContainerRight = element.querySelector(".right");
+        let scrollBtnRight = scrollContainerRight.querySelector("span");
+        let scrollContainerLeft = element.querySelector(".right");
+        let scrollBtnLeft = scrollContainerLeft.querySelector("span");
+        element.addEventListener("mouseenter", (e) => {
+            e.stopPropagation()
+            scrollContainerRight.style.display = "flex"
+            console.log(element.scrollLeft)
+            if (element.scrollX > 200) {
+                scrollContainerLeft.style.display = "flex"
+            }
+        })
+        element.addEventListener("mouseleave", (e) => {
+            e.stopPropagation()
+            scrollContainerRight.style.display = "none"
+            scrollContainerLeft.style.display = "none"
+        })
+    });
+}
+
 
 
 //Issues
